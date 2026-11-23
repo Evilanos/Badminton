@@ -1,0 +1,35 @@
+# --- Rahasia / konfigurasi lokal (jangan pernah di-push) ---
+.env
+.env.*
+*.pem
+*.key
+.claude/settings.local.json
+
+# --- Dependensi & hasil build (kalau nanti memakai npm) ---
+node_modules/
+dist/
+build/
+package-lock.json.bak
+
+# --- Log ---
+*.log
+npm-debug.log*
+
+# --- File sementara / hasil uji ---
+*.tmp
+*.bak
+*.swp
+scratch/
+screenshots/
+shot*.png
+rally*.png
+touch*.png
+
+# --- Sistem operasi ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
